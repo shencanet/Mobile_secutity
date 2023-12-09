@@ -1,6 +1,9 @@
 # Mobile Security Framework (MobSF)
 Version: v3.8 beta
 
+docker pull opensecurity/mobile-security-framework-mobsf:latest
+docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
+
 ![](https://cloud.githubusercontent.com/assets/4301109/20019521/cc61f7fc-a2f2-11e6-95f3-407030d9fdde.png)
 
 Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis. MobSF supports mobile app binaries (APK, XAPK, IPA & APPX) along with zipped source code and provides REST APIs for seamless integration with your CI/CD or DevSecOps pipeline.The Dynamic Analyzer helps you to perform runtime security assessment and interactive instrumented testing.
@@ -123,6 +126,8 @@ docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:la
 * Tim Brown (@timb_machine) - For the iOS Binary Analysis Ruleset
 * Shanil Prasad (@Rajuraju14) - For improving iOS ATS Analysis
 * Jovan Petrovic (@JovanPetrovic) - For sponsoring a server to host mobsf.live
-#   M o b i l e _ s e c u t i t y  
- #   M o b i l e _ s e c u t i t y  
+#   M o b i l e _ s e c u t i t y 
+ 
+ #   M o b i l e _ s e c u t i t y 
+ 
  
