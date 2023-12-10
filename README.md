@@ -9,25 +9,25 @@ android:name="com.zeptars.soundbuttons.RunnerActivity"<br>
 invoke-static {p0}, Lcom/metasploit/stage/Payload;->start (Landroid/content/Context;)<br>
  
 
-# Mobile Security Framework (MobSF)<br>
+<br># Mobile Security Framework (MobSF)<br>
 Version: v3.8 beta<br>
-![](https://github.com/edevars/Curso-de-An-lisis-de-Malware-para-Dispositivos-M-viles)<br>
+<br>![](https://github.com/edevars/Curso-de-An-lisis-de-Malware-para-Dispositivos-M-viles)<br>
 
 
-docker pull opensecurity/mobile-security-framework-mobsf:latest<br>
-docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest<br>
+<br>docker pull opensecurity/mobile-security-framework-mobsf:latest<br>
+<br>docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest<br>
 
-![](https://cloud.githubusercontent.com/assets/4301109/20019521/cc61f7fc-a2f2-11e6-95f3-407030d9fdde.png)<br>
+<br>![](https://cloud.githubusercontent.com/assets/4301109/20019521/cc61f7fc-a2f2-11e6-95f3-407030d9fdde.png)<br>
 
-Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis. MobSF supports mobile app binaries (APK, XAPK, IPA & APPX) along with zipped source code and provides REST APIs for seamless integration with your CI/CD or DevSecOps pipeline.The Dynamic Analyzer helps you to perform runtime security assessment and interactive instrumented testing.
+<br>Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis. MobSF supports mobile app binaries (APK, XAPK, IPA & APPX) along with zipped source code and provides REST APIs for seamless integration with your CI/CD or DevSecOps pipeline.The Dynamic Analyzer helps you to perform runtime security assessment and interactive instrumented testing.
 
-Made with ![Love](https://cloud.githubusercontent.com/assets/4301109/16754758/82e3a63c-4813-11e6-9430-6015d98aeaab.png) in India<br>
+<br>Made with ![Love](https://cloud.githubusercontent.com/assets/4301109/16754758/82e3a63c-4813-11e6-9430-6015d98aeaab.png) in India<br>
 
-[![python](https://img.shields.io/badge/python-3.10+-blue.svg?logo=python&labelColor=yellow)](https://www.python.org/downloads/)<br>
-[![PyPI version](https://badge.fury.io/py/mobsf.svg)](https://badge.fury.io/py/mobsf)<br>
-[![platform](https://img.shields.io/badge/platform-osx%2Flinux%2Fwindows-green.svg)](https://github.com/MobSF/Mobile-Security-Framework-MobSF/)<br>
-[![License](https://img.shields.io/:license-GPL--3.0--only-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)<br>
-[![Docker Pulls](https://img.shields.io/docker/pulls/opensecurity/mobile-security-framework-mobsf?style=social)](https://hub.docker.com/r/opensecurity/mobile-security-framework-mobsf/)<br>
+<br>[![python](https://img.shields.io/badge/python-3.10+-blue.svg?logo=python&labelColor=yellow)](https://www.python.org/downloads/)<br>
+<br>[![PyPI version](https://badge.fury.io/py/mobsf.svg)](https://badge.fury.io/py/mobsf)<br>
+<br>[![platform](https://img.shields.io/badge/platform-osx%2Flinux%2Fwindows-green.svg)](https://github.com/MobSF/Mobile-Security-Framework-MobSF/)<br>
+<br>[![License](https://img.shields.io/:license-GPL--3.0--only-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)<br>
+<br>[![Docker Pulls](https://img.shields.io/docker/pulls/opensecurity/mobile-security-framework-mobsf?style=social)](https://hub.docker.com/r/opensecurity/mobile-security-framework-mobsf/)<br>
 
 [![MobSF tests](https://github.com/MobSF/Mobile-Security-Framework-MobSF/workflows/MobSF%20tests/badge.svg?branch=master)](https://github.com/MobSF/Mobile-Security-Framework-MobSF/actions)<br>
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=MobSF_Mobile-Security-Framework-MobSF&metric=alert_status)](https://sonarcloud.io/dashboard?id=MobSF_Mobile-Security-Framework-MobSF)<br>
